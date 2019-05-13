@@ -28,7 +28,7 @@ CREATE TABLE `shop`.`product_type` (
   PRIMARY KEY (`id`));
   
   
--- Вставить в таблицу таблицу
+-- В1ставить в таблицу таблицу
 INSERT INTO `shop`.`category` (`id`, `name`, `discount`) VALUES ('1', 'Женская одежда', '5');
 INSERT INTO `shop`.`category` (`id`, `name`, `discount`) VALUES ('2', 'Мужская одежда', '0');
 
