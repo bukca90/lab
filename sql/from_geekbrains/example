@@ -28,7 +28,7 @@ CREATE TABLE `shop`.`product_type` (
   PRIMARY KEY (`id`));
   
   
-Вставить в таблицу таблицу
+-- Вставить в таблицу таблицу
 INSERT INTO `shop`.`category` (`id`, `name`, `discount`) VALUES ('1', 'Женская одежда', '5');
 INSERT INTO `shop`.`category` (`id`, `name`, `discount`) VALUES ('2', 'Мужская одежда', '0');
 
@@ -37,7 +37,7 @@ Insert into category (id, name, discount, alias_name) values (3, 'Женская
 Insert into category (id, name, discount, alias_name) values (4, 'Мужская обувь', 15, 'man''s shoes');
 
 
-Добавить автонумирацию идентификатора
+-- Добавить автонумирацию идентификатора
 ALTER TABLE `shop`.`category` 
 CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ;
 
